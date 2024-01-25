@@ -18,11 +18,11 @@ def main():
         
         else: # Strong password checker loop
             print("Key is not secure enough, please enter another safer")
-# Show crypted keys
-if hashed_keys:
-    print("Hashed keys:")
-    for key in hashed_keys:
-        print(key)
+        # Show crypted keys
+        if hashed_keys:
+            print("Hashed keys:")
+            for key in hashed_keys:
+            print(key)
 
 if __name__ == "__main__":
     main()
